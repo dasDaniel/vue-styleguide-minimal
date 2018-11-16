@@ -1,3 +1,6 @@
+const VueLoaderPlugin = require('vue-loader/lib/plugin');
+// const HtmlWebpackPlugin = require('html-webpack-plugin');
+
 module.exports = {
   components: 'src/*.vue',
   webpackConfig: {
@@ -21,6 +24,10 @@ module.exports = {
           loader: 'style-loader!css-loader'
         }
       ]
-    }
+    },
+
+    plugins: [
+      new VueLoaderPlugin(),
+    ]
   }
 }
