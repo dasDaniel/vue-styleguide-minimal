@@ -24,7 +24,7 @@ module.exports = {
         }
       ]
     },
-
+    // define use of the vue-loader plugin
     plugins: [
       new VueLoaderPlugin(),
     ]
