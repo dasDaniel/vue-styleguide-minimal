@@ -1,0 +1,14 @@
+{
+  "name": "vue-styleguide-minimal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "vue-styleguidist": "^1.9.0",
+    "webpack": "^4.25.1"
+  },
+  "scripts": {
+    "styleguide": "vue-styleguidist server",
+    "styleguide:build": "vue-styleguidist build"
+  }
+}
